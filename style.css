@@ -1,0 +1,69 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  color: inherit;
+}
+html,
+body {
+  font-family: "Raleway", sans-serif;
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  transition: 0.25s ease-in-out;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+.nav {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 10px 5%;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  align-items: center;
+}
+.container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5%;
+}
+h2#color-tag {
+  font-size: 30px;
+}
+button.generate {
+  padding: 10px 20px;
+  background-color: rgb(152, 158, 158);
+  color: #111111;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s ease-in-out;
+}
+button.generate:active {
+  transform: scale(0.95);
+  background-color: rgb(201, 201, 201);
+}

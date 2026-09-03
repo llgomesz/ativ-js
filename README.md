@@ -1,2 +1,2 @@
-# Atividade-Javascript
-Atividade proposta para aula de javascript 
+# Atividade---Flip-de-Cores-JS
+Atividade desenvolvida para aprendizado em JS
