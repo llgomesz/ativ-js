@@ -1,23 +1,168 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <title>Estudo JS | Flip de cores</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <nav class="nav"><h1>Flip de Cores</h1></nav>
-    <div class="container">
-      <h2 id="color-tag">#33df34</h2>
-      <button class="generate">Change Background</button>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio Laura</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./Css/style.css">
+</head>
+<body>
+    
+<header>
+
+<a href="#" class="logo">Portifólio</a>
+
+<div class="nav">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#portifolio">Portfólio</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+</div>
+
+<!-- Menu hamburguer que aparecerá em telas menores -->
+
+<div class="nav-responsive">
+    <a href="#home">Home</a>
+    <a href="#services">Serviço</a>
+    <a href="#portifolio">Portfólio</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+</div>
+
+<div class="menu-hamburguer">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+</div>
+
+</header>
+
+<!-- inicio do home -->
+
+<section class="home" id="home">
+    <div class="home-content">
+        <h3>Olá, meu nome é</h3>
+        <h1>Laura Oliveira</h1>
+        <h3>Desenvolvedor FullStack</h3>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab iure perferendis doloribus veniam necessitatibus aut nemo sequi fuga nostrum ea ut natus quas dolorum, voluptas dolores similique? Repudiandae id accusantium dolor velit! Facilis tenetur similique tempora quae quibusdam pariatur aliquam.</p>
+
+        <div class="social-media">
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-whatsapp"></i></a>
+            <a href="#"><i class="bx bxl-linkedin"></i></a>
+            <a href="#"><i class="bx bx-envelope"></i></a>
+        </div>
+
     </div>
-    <script src="script.js"></script>
-  </body>
+    
+    <div class="home-img">
+        <img src="./Asets/WhatsApp Image 2026-06-01 at 12.35.09.jpeg" alt="foto home">
+
+    </div>
+
+</section>
+
+<!-- inicio services -->
+
+<section class="services" id="services">
+    <h2>Meus Serviços</h2>
+    <div class="services-conteiner">
+
+        <div class="services-box">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developent</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores error, ipsam eius quos accusantium voluptatum illo sint modi itaque. Aut!</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+         <div class="services-box">
+            <i class="bx bx-code-curly"></i>
+            <h3>Track and Developent</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores error, ipsam eius quos accusantium voluptatum illo sint modi itaque. Aut!</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+        <div class="services-box">
+            <i class="bx bx-mobile-alt"></i>
+            <h3>Mobile</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores error, ipsam eius quos accusantium voluptatum illo sint modi itaque. Aut!</p>
+            <a href="#" class="btn">Saiba Mais</a>
+        </div>
+
+    </div>
+
+</section> 
+
+<!-- inicio portifolio -->
+ <section class="portfolio" id="portfolio">
+    <h2>Projetos Recentes</h2>
+<div class="portfolio-container">
+    <div class="portfolio-box">
+        <img src="#" alt="portfolio 1">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+     <div class="portfolio-box">
+        <img src="#" alt="portfolio 2">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+     <div class="portfolio-box">
+        <img src="#" alt="portfolio 3">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+     <div class="portfolio-box">
+        <img src="#" alt="portfolio 4">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+     <div class="portfolio-box">
+        <img src="#" alt="portfolio 5">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+    <div class="portfolio-box">
+        <img src="#" alt="portfolio 6">
+        <div class="portfolio-layer">
+            <h4>Página Web</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum nulla blanditiis iste, quaerat tempore!</p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+
+        </div>
+    </div>
+
+</div>
+ </section>
+
+</body>
 </html>
